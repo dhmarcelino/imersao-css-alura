@@ -11,6 +11,7 @@ body{
     font-family: Arial;
     height: 100vh;
     font-size: 10px;
+    font-family: 'Source Code Pro', monospace;
 }
 
 /* breakpoint 1 */
@@ -76,12 +77,107 @@ a:hover{
     color: black;
     text-align: center;
 }
+
+.site-titulo{
+    font-size: 3em;
+    font-family: 'Patrick Hand SC', cursive;
+}
   
 .site-subtitulo{
-    font-style: italic;
+    font-family: 'Jost', sans-serif;
+}
+
+.hobbies{
+    padding: 20px;
+    font-size: 1.8em;
+    color: whitesmoke;
+}
+
+.hobbies h2{
+    font-family: 'Jost', sans-serif;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.hobbies .grid{
+    display: grid;
+    gap: 1em;
+}
+
+@media (min-width: 700px){
+    .hobbies .grid{
+        grid-template-columns: repeat(2, 300px);
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1000px){
+    .hobbies .grid{
+        grid-template-columns: repeat(3, 300px);
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1300px){
+    .hobbies .grid{
+        grid-template-columns: repeat(4, 300px);
+        justify-content: center;
+    }
+}
+
+.hobbies figure{
+    text-align: center;
 }
 
 .img-portfolio{
-    height: 180px;
-    width: 180px;
+    height: 300px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.educacao{
+    padding: 20px;
+    font-size: 1.8em;
+    color: whitesmoke;
+}
+
+.educacao h2{
+    font-family: 'Jost', sans-serif;
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+.educacao li{
+    font-family: 'Jost', sans-serif;
+    font-size: 0.6em;
+    padding-left: 30px;
+}
+
+.educacao a{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.profissao{
+    padding: 20px;
+    font-size: 1.8em;
+    color: whitesmoke;
+}
+
+.profissao h2{
+    font-family: 'Jost', sans-serif;
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+.profissao li{
+    font-family: 'Jost', sans-serif;
+    font-size: 0.6em;
+    padding-left: 30px;
+}
+
+.profissao a{
+    color: whitesmoke;
+    font-size: 20px;
 }
