@@ -136,48 +136,46 @@ a:hover{
     border-radius: 30px;
 }
 
-.educacao{
-    padding: 20px;
-    font-size: 1.8em;
-    color: whitesmoke;
-}
-
-.educacao h2{
-    font-family: 'Jost', sans-serif;
-    color: whitesmoke;
-    font-size: 1em;
-}
-
-.educacao li{
-    font-family: 'Jost', sans-serif;
-    font-size: 0.6em;
-    padding-left: 30px;
-}
-
-.educacao a{
-    color: whitesmoke;
-    font-size: 20px;
-}
-
+.contato,
+.educacao,
 .profissao{
     padding: 20px;
     font-size: 1.8em;
     color: whitesmoke;
 }
 
+.contato h2,
+.educacao h2,
 .profissao h2{
     font-family: 'Jost', sans-serif;
     color: whitesmoke;
     font-size: 1em;
 }
 
+.contato li,
+.educacao li,
 .profissao li{
     font-family: 'Jost', sans-serif;
     font-size: 0.6em;
     padding-left: 30px;
 }
 
+.educacao a,
 .profissao a{
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.contato a{
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+.contato a:hover{
+    text-decoration: none;
+    text-shadow: 0px 0px 30px whitesmoke;
+}
+
+.contato .icons{
+    text-align: center;
 }
