@@ -15,18 +15,18 @@
 <body>
     <header>
         <nav class="menu">
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Hobbies</a></li>
-                <li><a href="#">Contato</a></li>
+            <ul class="container">
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#educacao">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <div>
+        <div class="titulo">
             <h1 class="site-titulo">Dhalton Marcelino</h1>
             <h2 class="site-subtitulo">jr. web developer</h2>
         </div>
     </header>
-    <section class="hobbies">
+    <section class="hobbies container" id="hobbies">
         <h2>Hobbies</h2>
         <div class="grid">
             <figure>
@@ -47,17 +47,17 @@
             </figure>
         </div>
     </section>
-    <section class="educacao">
+    <section class="educacao container" id="educacao">
         <h2>Educação</h2>
         <li><a href="#">Ensino Médio Completo - Colégio Estadual Dom Emanuel</a></li>
         <li><a href="#">Graduando em Ciência da Computação - UFCAT</a></li>
     </section>
-    <section class="profissao">
+    <section class="profissao container">
         <h2>Experiências Profissionais</h2>
         <li><a href="#">Analista de TI - Colégio Aprov </a></li>
         <li><a href="#">Estagiário de Sistemas - Desenvolvimento - HPE Automotores do Brasil</a></li>
     </section>
-    <section class="contato">
+    <section class="contato container" id="contato">
         <h2>Contato</h2>
         <div class="grid icons">
             <a target="_blank" href="https://github.com/dhmarcelino">
@@ -73,6 +73,9 @@
                 <i class="fab fa-instagram"></i>
             </a>
         </div>
+        <p>
+            Este site foi desenvolvido durante a <a href="https://www.alura.com.br/imersao-css">#ImerssãoCSS da Alura</a>
+        </p>
     </section>
 </body>
 
